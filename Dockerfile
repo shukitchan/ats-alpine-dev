@@ -21,8 +21,8 @@ RUN apk add --no-cache -U \
 RUN apk add --no-cache -U --repository https://dl-cdn.alpinelinux.org/alpine/edge/community hwloc
 
 # download and build ATS
-RUN curl -L https://downloads.apache.org/trafficserver/trafficserver-9.1.1.tar.bz2 | bzip2 -dc | tar xf - \
-  && cd trafficserver-9.1.1/ \
+RUN curl -L https://downloads.apache.org/trafficserver/trafficserver-9.1.2.tar.bz2 | bzip2 -dc | tar xf - \
+  && cd trafficserver-9.1.2/ \
   && autoreconf -if \
   && ./configure --enable-debug=yes \
   && make \
