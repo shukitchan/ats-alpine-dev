@@ -1,4 +1,4 @@
-Docker Image for Development Environment for Apache Traffic Server (ATS) 9.1.1 on alpine 3.14.3
+Docker Image for Development Environment for Apache Traffic Server (ATS) 9.1.2 on alpine 3.14.3
 ====
  - http://trafficserver.apache.org/
 
@@ -11,7 +11,7 @@ Instructions to Manually Build the Image
 
 Compile and Deploy ATS
 ====
- - `cd /trafficserver-9.1.1`
+ - `cd /trafficserver-9.1.2`
  - `./configure`
  - `make`
  - `make install`
