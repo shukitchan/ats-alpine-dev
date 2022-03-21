@@ -1,4 +1,4 @@
-FROM alpine:3.14.3
+FROM alpine:3.14.4
 
 RUN apk add --no-cache --virtual .tools \
   bzip2 curl git automake libtool autoconf make \
