@@ -12,6 +12,7 @@ Instructions to Manually Build the Image
 Compile and Deploy ATS
 ====
  - `cd /trafficserver-9.1.2`
+ - `autoreconf -f -i`
  - `./configure`
  - `make`
  - `make install`
